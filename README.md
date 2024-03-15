@@ -45,6 +45,14 @@ conda env create --name stammzelltisch -f stammzelltisch.yml
 conda activate stammzelltisch
 ```
 
+### Open the jupyter file
+* Launch jupyter notebook server:
+```
+jupyter notebook
+```
+* Open server in the browser
+* Open the notebook `stammzelltisch.ipynb`
+
 ### Removing the files
 * Miniconda
 * Ollama
