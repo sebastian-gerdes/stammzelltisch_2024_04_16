@@ -32,6 +32,7 @@ ollama list
 ```
 
 ### Download tutorial files
+The tutorial files will be created in your home folder and can be removed at the end of the session.
 ```
 cd ~
 git clone https://github.com/sebastian-gerdes/stammzelltisch_2024_04_09.git
@@ -39,9 +40,6 @@ cd stammzelltisch_2024_04_09
 ```
 
 #### Setup python environment
-* Create working directory at location of your choice
-* Save `stammzelltisch.yml` in this directory
-* Open in terminal in this directory and type:
 ```
 conda env create --name stammzelltisch -f stammzelltisch.yml
 conda activate stammzelltisch
