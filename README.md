@@ -33,8 +33,10 @@ brew install ollama
 * Open a terminal and type:
 ```
 ollama serve
+```
+* Open a second terminal and type:
+```
 ollama run llama2
-ollama list
 ```
 
 ### Download tutorial files
