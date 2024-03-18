@@ -57,7 +57,8 @@ conda activate stammzelltisch
 jupyter notebook
 ```
 * Open server in the browser
-* Open the notebook `stammzelltisch.ipynb`
+* Open the notebook `handson/llm_tutorial.ipynb`
+* Execute the code cells from top to bottom by selecting them and then pressing shift-F10
 
 ### Removing the files
 * Miniconda
