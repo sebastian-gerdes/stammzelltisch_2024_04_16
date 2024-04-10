@@ -1,6 +1,6 @@
 ---
 title: "Stammzelltisch"
-subtitle: "24.4.2024"
+subtitle: "16.4.2024"
 format: 
     revealjs:
         smaller: true
@@ -47,5 +47,10 @@ self-contained: true
     * Grand, overarching synopsis of current state of the art
 
 ## Little LLM / RAG tutorial
-* [Link to tutorial files](https://github.com/sebastian-gerdes/stammzelltisch_2024_04_09)
+* [Link to tutorial files](https://github.com/sebastian-gerdes/stammzelltisch_2024_04_16)
 
+## Conclusion
+* LLMs are astonishlingly good at many things
+* In my opinion, they are quite a lot under human performance for many complex tasks
+* A lot can be done locally
+* In my experience: ChatGPT-4 is better
