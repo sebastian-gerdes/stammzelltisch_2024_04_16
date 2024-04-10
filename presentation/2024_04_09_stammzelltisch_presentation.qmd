@@ -1,9 +1,0 @@
----
-title: "Stammzelltisch"
-subtitle: "24.4.2024"
-format: revealjs
-self-contained: true
----
-
-## First slide
-* Some text

@@ -1,0 +1,51 @@
+---
+title: "Stammzelltisch"
+subtitle: "24.4.2024"
+format: 
+    revealjs:
+        smaller: true
+self-contained: true
+---
+
+## Artificial intelligence 
+* trialGPT - an assistance system to foster the design of clinical trials
+    * Many clinical studies fail
+    * Can we use artificial intelligence (AI) to design more useful clinical trials?
+    * Algorithmic study design instead of studies based on "gut feeling"
+    * Switch perspective:
+        * Today: New patient --> AI chooses the best-fitting (already existing) study
+        * Tomorrow: AI proposes new design of a clinical study based knowing which patients come to the UKD
+
+## Challenges
+* How can we formally describe the space of possible studies?
+    * Parameter to study (e. g. Hba1c, blood pressure / survival time)
+    * Inclusion criteria (e. g. age > 65 / Diabetes Mellitus Type II)
+    * Intervention / grouping (e. g. Metformine + diet vs. diet only)
+    * Hypotheses (e. g. Hba1c after 3 months in group Metformine + diet lower than in group diet only)
+    * …
+* How do we quantify the utility of a particular study design?
+
+## Attempt to simplify
+* Let large language model (LLM) summarize state of the art based on researchers' prompt
+* Let researcher define designs in collaboration with statistician
+* Simulate suggested clinical studies and evaluate their usefulness
+
+## LLM to summarize state of the art
+* Vanilla LLMs provide somewhat intelligent answers - yet not a comprehensive overview of the state of the art
+* Fine-tuning of LLM vs. retrieval augmented-generation (RAG)
+    * Fine-tuning: optimize weights of neural net based on new documents
+    * RAG: 
+        * Generation = what the LLM spits out
+        * Augment the output by the knowledge retrieved from submitted documents
+
+## RAG in our case
+* Download documents from ClinicialTrials.gov and PubMed and feed them into LLM
+* What works:
+    * Needle in haystack can be retrieved in a nice way
+        * e. g. "What shall I do in the case of a blast crisis in a person older than 80 with diabetes?"
+* What doesn't work so well:
+    * Grand, overarching synopsis of current state of the art
+
+## Little LLM / RAG tutorial
+* [Link to tutorial files](https://github.com/sebastian-gerdes/stammzelltisch_2024_04_09)
+
