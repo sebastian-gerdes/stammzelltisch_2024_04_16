@@ -12,17 +12,23 @@ In this readme-file, the steps to install the required software are described. F
     * For other operating systems a little more action is required on the user side, but in most cases everything should work fine as well
 * Terminal
 * Browser
-* Optional: OpenAI account - you can create it [here](https://platform.openai.com/signup)
-
 
 ### Setup python and python environment
-#### Install miniconda (approx. 3 minutes):
-* Miniconda is a software that allows to install scientific software in an easy and easily removable way
-* On macOS:
+Python and its environment can easily be set up via `conda`. `conda` is a software that allows to install scientific software in an easy and easily removable way. `miniconda` is a minimalistic version of `conda`.
+
+* You already have `conda` installed:
+Open a terminal and type:
+
+```
+conda update conda
+```
+
+* You want to install conda () de novo (approx. 3 minutes):
+    * On macOS:
 ```
 brew install --cask miniconda
 ```
-* Else: Follow instructions [here](https://docs.anaconda.com/free/miniconda/miniconda-install/)
+    * Else: Follow instructions [here](https://docs.anaconda.com/free/miniconda/miniconda-install/)
 
 
 ### Setup Ollama (approx 4 GB will be downloaded)
@@ -41,7 +47,7 @@ ollama pull llama2
 ```
 
 ### Download tutorial files
-The tutorial files will be created in your home folder and can be removed at the end of the session.
+The tutorial files will be created in your home folder and can be removed at the end of the session. It might not work from the IMB-Intranet - so please connect via Eduroam.
 ```
 cd ~
 git clone https://github.com/sebastian-gerdes/stammzelltisch_2024_04_16.git
