@@ -67,7 +67,8 @@ jupyter notebook
 * Open server in the browser
 * Open the notebook `hands_on/llm_tutorial.ipynb`
 * Execute the code cells from top to bottom by selecting them and then pressing <kbd>Shift</kbd> + <kbd>Enter</kbd>
-* Be patient, — interaction with the LLM can take some moments.
+* Be patient, — interaction with the LLM can take some moments
+* When finished, feel free to kill all terminals you have used for the tutorial
 
 ### Removing the installed files via terminal:
 * Miniconda including the created environments
