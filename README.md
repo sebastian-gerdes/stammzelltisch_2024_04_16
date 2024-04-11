@@ -16,19 +16,18 @@ In this readme-file, the steps to install the required software are described. F
 ### Setup python and python environment
 Python and its environment can easily be set up via `conda`. `conda` is a software that allows to install scientific software in an easy and easily removable way. `miniconda` is a minimalistic version of `conda`.
 
-* You already have `conda` installed:
+#### You already have `conda` installed:
 Open a terminal and type:
-
 ```
 conda update conda
 ```
 
-* You want to install conda () de novo (approx. 3 minutes):
-    * On macOS:
+#### You want to install conda () de novo (approx. 3 minutes):
+* On macOS:
 ```
 brew install --cask miniconda
 ```
-    * Else: Follow instructions [here](https://docs.anaconda.com/free/miniconda/miniconda-install/)
+* Else: Follow instructions [here](https://docs.anaconda.com/free/miniconda/miniconda-install/)
 
 
 ### Setup Ollama (approx 4 GB will be downloaded)
