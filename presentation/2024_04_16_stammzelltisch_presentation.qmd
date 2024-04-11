@@ -14,7 +14,7 @@ self-contained: true
     * Algorithmic study design instead of studies based on "gut feeling"
     * Switch perspective:
         * Today: New patient --> AI chooses the best-fitting (already existing) study
-        * Tomorrow: AI proposes new design of a clinical study based knowing which patients come to the UKD
+        * Tomorrow: AI proposes new design of a clinical study based on knowing which patients come to the UKD
 
 ## Challenges
 * How can we formally describe the space of possible studies?
@@ -39,7 +39,7 @@ self-contained: true
         * Augment the output by the knowledge retrieved from submitted documents
 
 ## RAG in our case
-* Download documents from ClinicialTrials.gov and PubMed and feed them into LLM
+* Download documents from <https://clinicaltrials.gov/> and [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and feed them into LLM
 * What works:
     * Needle in haystack can be retrieved in a nice way
         * e. g. "What shall I do in the case of a blast crisis in a person older than 80 with diabetes?"
@@ -53,4 +53,4 @@ self-contained: true
 * LLMs are astonishlingly good at many things
 * In my opinion, they are quite a lot under human performance for many complex tasks
 * A lot can be done locally
-* In my experience: ChatGPT-4 is better
+* In my experience: ChatGPT-4 is better than Llama2
