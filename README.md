@@ -22,7 +22,7 @@ Open a terminal and type:
 conda update conda
 ```
 
-#### You want to install conda () de novo (approx. 3 minutes):
+#### You want to install `conda` de novo (approx. 3 minutes):
 * On macOS:
 ```
 brew install --cask miniconda
