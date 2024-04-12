@@ -1,4 +1,4 @@
-## Companion repository for Stammzelltisch on April 16, 2024
+## Companion repository for Stammzelltisch on May 14!
 In the Stammzelltisch on April 16, 2024, I want to present the current state of our project to develop an assistance system for the design of clinical studies using artificial intelligence techniques, running title of the app is "trialGPT". In order to make the topic more tangible, I intend to include a short hands-on session. For this part, the participants ideally install some software in advance (see section Setup). In this session, the participants are invited to take part in a short tutorial for the use of large language models (LLMs) on their local computer.
 
 The examples are in Python, using mainly the python library langchain and the Llama2 LLM, installed on the local machine via the software Ollama. Furthermore, the langchain library is used to perform retrieval augmented generation (RAG), a technique which allow to feed the knowledge of additional documents into the LLM. Last, the tutorial contains a quick walk-through through the prototype of trialGPT.
