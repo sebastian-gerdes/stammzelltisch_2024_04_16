@@ -1,6 +1,6 @@
 ---
 title: "Stammzelltisch"
-subtitle: "16.4.2024"
+subtitle: "21.5.2024"
 format: 
     revealjs:
         smaller: true
@@ -49,8 +49,68 @@ self-contained: true
 ## Little LLM / RAG tutorial
 * [Link to tutorial files](https://github.com/sebastian-gerdes/stammzelltisch_2024_04_16)
 
+<!-- ## Access to data from clinicaltrials.gov -->
+<!-- * Classic interface -->
+<!--   * Web search -->
+<!--   * XML files -->
+<!-- * New interface -->
+<!--   * Web search with download in different formats -->
+<!--     * JSON -->
+<!--     * XML -->
+<!--     * FHIR -->
+<!-- * Clinical Trials Transformation Initiative (CTTI) database -->
+<!--   * Access via PostgreSQL -->
+<!--     * Local database -->
+<!--     * Remote access to server -->
+
+## Current ideas
+* Descriptive analysis of studies in clinicaltrials.gov
+* Provide low level R and Python access to clinicaltrials.gov
+* Create chatbot that lets you interact with clinicaltrials.gov
+
+## Descriptive analysis
+![](images_paper/paper_4.png){width=48%}
+![](images_paper/paper_1.png){width=48%}
+![](images_paper/paper_2.png){width=48%}
+![](images_paper/paper_3.png){width=48%}
+
+## Preliminary results
+::: {.panel-tabset}
+
+### N
+
+![](images_descriptive_analysis/descriptive_analysis-1.png){width=70%}
+
+### Study Type
+
+![](images_descriptive_analysis/descriptive_analysis-2.png){width=70%}
+
+### Funder Type
+
+![](images_descriptive_analysis/descriptive_analysis-4.png){width=70%}
+
+### --
+
+![](images_descriptive_analysis/descriptive_analysis-5.png){width=70%}
+
+### Condition
+
+![](images_descriptive_analysis/descriptive_analysis-6.png){width=70%}
+
+### --
+
+![](images_descriptive_analysis/descriptive_analysis-7.png){width=70%}
+
+### --
+
+![](images_descriptive_analysis/descriptive_analysis-8.png){width=70%}
+
+:::
+
+
 ## Conclusion
 * LLMs are astonishlingly good at many things
 * In my opinion, they are quite a lot under human performance for many complex tasks
 * A lot can be done locally
-* In my experience: ChatGPT-4 is better than Llama2
+* Many different models
+  * My experience: Usually, GPT-4 is best by far
