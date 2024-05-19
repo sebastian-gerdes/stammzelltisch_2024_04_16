@@ -68,42 +68,63 @@ self-contained: true
 * Provide low level R and Python access to clinicaltrials.gov
 * Create chatbot that lets you interact with clinicaltrials.gov
 
-## Descriptive analysis
+## Descriptive analysis - previous papers
 ![](images_paper/paper_4.png){width=48%}
 ![](images_paper/paper_1.png){width=48%}
 ![](images_paper/paper_2.png){width=48%}
 ![](images_paper/paper_3.png){width=48%}
 
-## Preliminary results
+## Descriptive analysis - preliminary results
 ::: {.panel-tabset}
 
 ### N
 
-![](images_descriptive_analysis/descriptive_analysis-1.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-1.png){width=60%}
 
 ### Study Type
 
-![](images_descriptive_analysis/descriptive_analysis-2.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-2.png){width=60%}
 
 ### Funder Type
 
-![](images_descriptive_analysis/descriptive_analysis-4.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-4.png){width=60%}
 
 ### --
 
-![](images_descriptive_analysis/descriptive_analysis-5.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-5.png){width=60%}
 
 ### Condition
 
-![](images_descriptive_analysis/descriptive_analysis-6.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-6.png){width=60%}
 
 ### --
 
-![](images_descriptive_analysis/descriptive_analysis-7.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-7.png){width=60%}
 
 ### --
 
-![](images_descriptive_analysis/descriptive_analysis-8.png){width=70%}
+![](images_descriptive_analysis/descriptive_analysis-8.png){width=60%}
+
+:::
+
+## Hallucinations
+::: {.panel-tabset}
+
+### Vanilla LLama2
+
+![](images_hallucinations/hallucinations_1.jpg)
+
+### RAG LLama2
+
+![](images_hallucinations/hallucinations_2.jpg)
+
+### GPT-3.5 LLama2
+
+![](images_hallucinations/hallucinations_3.jpg)
+
+### Chat-GPT 4o
+
+![](images_hallucinations/hallucinations_4.png)
 
 :::
 
